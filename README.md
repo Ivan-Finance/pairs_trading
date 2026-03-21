@@ -46,7 +46,7 @@ The spread is stationary and the strategy generates a positive P&L.
 
 ```
 ADF Statistic:  -3.31   (critical value at 5%: -2.86)
-P-value:         0.014  Spread is stationary
+P-value:        0.014   Spread is stationary
 Total P&L:      +8.29
 Sharpe Ratio:   +0.13
 ```
