@@ -25,7 +25,6 @@ The relationship between the two stocks can BREAK DOWN permanently
 This is why statistical testing BEFORE trading is essential.
 
 """
-!pip install yfinance
 
 import yfinance as yf
 import pandas as pd
