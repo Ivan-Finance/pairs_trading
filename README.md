@@ -85,9 +85,9 @@ and are driven by similar consumer trends. Yet the strategy fails badly.
 
 The reason: during the COVID crash (March 2020), KO collapsed while PEP held up:
 KO depends on restaurants, bars and events (all closed), while PEP sells
-through supermarkets. The spread never recovered. This is called a
-**breakdown in cointegration**: a structural regime change that permanently
-shifts the relationship between two stocks.
+through supermarkets. The spread never recovered. This is a **breakdown in
+cointegration**: a structural regime change that permanently shifts the
+relationship between two stocks.
 
 **Z-score with signals:**
 
