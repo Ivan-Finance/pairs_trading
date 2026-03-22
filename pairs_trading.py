@@ -71,17 +71,17 @@ def pairs_trading(ticker1, ticker2, start="2018-01-01", end="2026-3-21"):
 
     # Z-score: how many standard deviations is today's spread
     # away from its recent 20-day mean?
-    #
+    
     #   z = (spread - mean) / std
-    #
+    
     # Interpretation:
     #   z ≈  0  → spread is at its historical average → no signal
     #   z >  2  → spread is unusually HIGH (2 std above mean) → sell ticker1, buy ticker2
     #   z < -2  → spread is unusually LOW  (2 std below mean) → buy ticker1, sell ticker2
-    #
+    
     # The threshold of ±2 is conventional: in a normal distribution,
     # values beyond ±2 std occur only ~5% of the time, making them
-    # statistically "extreme" and likely to revert.
+    # statistically extreme and likely to revert.
     z_series = (spread - ma_20) / std_rolling
 
     print(f"\n  Z-score (last 5 days):")
